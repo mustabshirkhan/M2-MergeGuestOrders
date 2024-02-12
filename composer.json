@@ -1,0 +1,22 @@
+{
+  "name": "mkmodules/module-mergeguestorders",
+  "description": "This extension will merge guest user's orders with customer having same email.",
+  "type": "magento2-module",
+  "license": "GPL-3.0",
+  "authors": [
+    {
+      "name": "MkModules",
+      "email": "info@example.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "MkModules\\MergeGuestOrders\\": ""
+    }
+  }
+}
